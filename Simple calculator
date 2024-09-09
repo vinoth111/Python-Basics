@@ -1,0 +1,17 @@
+print('1.add','2.substract','3.multipy','4.divide')
+print('please enter your choice')
+choice=int(input())
+print('please enter the first number')
+a=int(input())
+print('please enter the second number')
+b=int(input())
+if choice==1:
+    print(a+b)
+if choice==2:
+    print(a-b)
+if choice==3:
+    print(a*b)
+if choice==4:
+    print(a/b)
+else:
+    print('invalid')

@@ -1,0 +1,76 @@
+mylist=[1,2,3,4,5]
+mylist[0]
+nestedlist=[12,'banana',[1,2,3]]
+nestedlist[0]
+
+nestedlist=[12,'banana',[1,2,3]]
+nestedlist[2][2]
+
+negativeindexlist=[1,2,3,4,5]
+negativeindexlist[-2]
+
+SLICELIST=[1,2,3,4,5]
+SLICELIST[-2:]
+SLICELIST[1:2]
+SLICELIST[:-3]
+SLICELIST[]
+
+A=[1,2,3,4,5]
+A[2]=(4)
+print(A)
+
+A=[1,2,3,4,5]
+A.append(89)
+print(A)
+
+A=[1,2,3,4,5]
+A.extend([987,897])
+
+A=[1,2,3,4,5]
+del A[0:2]
+print(A)
+
+A=[1,2,3,4,5]
+A=[]
+print(A)
+
+A=[1,2,3,4,5]
+A.remove(3)
+print(A)
+
+A=[1,2,3,4,5]
+A.pop(2)
+print(A)
+
+A=[1,2,3,4,5]
+b=A.count(4)
+print(b)
+
+A=[1,12,3,4,5]
+A.sort()
+print(A)
+
+A=[18,453,3,5,33,45,334]
+A.reverse()
+print(A)
+
+A=[]
+for i in range(20):
+    A.append(2**i)
+    if (i==20):
+        print(A)
+        break
+    else:
+        pass
+    
+A=[1,2,3,4,5]
+B=4 in A
+print(B)
+
+A=[1,2,3,4,5]
+b=len(A)
+print(b)
+
+A=[1,2,3,4,5]
+b=max(A)
+B=min(A)

@@ -1,0 +1,13 @@
+print('enter the number')
+a=int(input())
+b=int(input())
+for i in range(a,b):
+    for j in range(2,i):
+        x=i%j
+        if x==0:
+            print(i)
+            break
+        else:
+            pass;
+            
+        

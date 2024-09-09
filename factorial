@@ -1,0 +1,10 @@
+a=int(input())
+i=1
+res=1
+for i in range(i,a):
+    i=i+1
+    res=res*i
+    if(i==a):
+        print(res)
+    else:
+        pass

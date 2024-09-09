@@ -1,0 +1,4 @@
+print('enter the number')
+a=int(input())
+sq=a**0.5
+print(sq)

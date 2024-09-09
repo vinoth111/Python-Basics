@@ -1,0 +1,7 @@
+a=int(input())
+x=0
+res=0
+for i in range(0,a):
+    b=i+1
+    res=res+b
+print(res)
